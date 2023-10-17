@@ -4,7 +4,7 @@ import { customers } from './customers';
 @Component({
   selector: 'app-grid',
   templateUrl: './grid.component.html',
-  styleUrls: ['./grid.component.css', './kendo.blue.css']
+  styleUrls: ['./grid.component.css']
 })
 export class GridComponent {
   public gridData: unknown[] = customers;
